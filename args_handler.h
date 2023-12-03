@@ -1,11 +1,4 @@
 #include "imports.h"
-#include <stdio.h>
-#ifndef INVALID_ARGS
-    #define INVALID_ARGS -17
-#endif
-#ifndef VALID_ARGS
-    #define VALID_ARGS 0
-#endif
 
 typedef struct {
     int deslocation;

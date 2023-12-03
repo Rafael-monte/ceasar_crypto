@@ -16,7 +16,7 @@ ARGS_INPUT check_args(int argc, char** argv) {
     }
 
     if (deslocation > ALPHABET_SIZE) {
-        fprintf(stdin, "WARN deslocation bigger than necessary. Consider give a number in interval [1 - 25]");
+        fprintf(stdin, "WARN: deslocation bigger than necessary. Consider give a number in interval [1 - 25]\n");
     }
 
     res.deslocation = deslocation % ALPHABET_SIZE;

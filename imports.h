@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <string.h>
+#include <stdio.h>
+
 #ifndef ALPHABET_SIZE
     #define ALPHABET_SIZE 26
 #endif

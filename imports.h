@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <memory.h>
+#include <ctype.h>
 #include <string.h>
 #include <stdio.h>
 
@@ -8,4 +8,7 @@
 #endif
 #ifndef MAX_INPUT_SIZE
     #define MAX_INPUT_SIZE 32
+#endif
+#ifndef CORRESPONDENT_NOT_FOUND
+    #define CORRESPONDENT_NOT_FOUND '?'
 #endif
